@@ -27,4 +27,6 @@ int main() {
     /*Scrivi qui sotto le 4 stampe dei risultati utilizzando le funzioni che hai creato sopra*/
 
     /*FINE SPAZIO*/
+
+    return 0;
 }
