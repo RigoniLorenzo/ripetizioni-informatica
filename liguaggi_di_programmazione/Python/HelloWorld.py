@@ -1,6 +1,6 @@
-#Come puoi vedere, in Python non c'è bisogno dei ; per delimitare le istrunzioni e neanche di una funzione main
+#Come puoi vedere, in Python non c'è bisogno dei ; per delimitare le istruzioni e neanche di una funzione main
 
-#Inoltre, non serve dichiarare le variabili, basta solo assegnarle
+#Inoltre, NON bisogna dichiarare le variabili, si deve solo assegnarle
 msg = "Hello World!"
 
 print(msg)
