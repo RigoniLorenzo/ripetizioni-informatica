@@ -37,7 +37,7 @@ int main()
     printf("Sommma: %d\n", num1 + num2);
     printf("Differenza: %d\n", num1 - num2);
     printf("Moltiplicazione: %d\n", num1 * num2);
-    printf("Divisione: %d\n", num1 / num2);
+    printf("Divisione: %f\n", (float) num1 / num2);
     printf("Modulo (resto della divsione): %d\n\n", num1 % num2);
 
     /*Operatori di relazione: servono a relazionare 2 operandi e restituiscono un valore booleano*/
