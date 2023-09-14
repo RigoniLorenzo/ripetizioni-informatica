@@ -50,5 +50,23 @@ int main() {
         printf("Il valore %d e' come se fosse false\n", integerFalse);
     }
 
+    /*PS: esiste un particolare tipo di if che si chiama switch.
+    Questo tipo di struttura risulta utile se dobbiamo controllare l'esatto valore della variabile.*/
+
+    switch (num1) {
+        case 5:
+            /*case 5 equivale a scrivere num1 == 5*/
+            printf("Il valore della variabile e' 5");
+            break; /*IMPORTANTE mettere il break, altrimenti non si esce dallo switch*/
+        
+        case 6:
+        /*In questo caso, visto che non ho messo il break, se num1 è uguale a 6, lo switch andra avanti*/
+
+        default:
+            /*Il default viene usato per ogni valore non presente nei case*/
+            printf("Il valore della variabile non e' 5");
+            break;
+    }
+
     return 0;
 }
